@@ -1,0 +1,30 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Swag Labs Cucumber tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "debug": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisandre69/cypress-cucumber.git"
+  },
+  "author": "Luis Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisandre69/cypress-cucumber/issues"
+  },
+  "homepage": "https://github.com/luisandre69/cypress-cucumber#readme",
+  "dependencies": {
+    "cypress": "^9.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  }
+}
